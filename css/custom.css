@@ -1,0 +1,544 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+h1.header {
+	display:inline-block;
+	font-weight:600;
+	font-size:20px;	
+	margin:0 auto;
+	margin:50px 0 50px 0;
+	padding-bottom:20px;
+	border-bottom:1px solid #cf2629;
+}
+.saying p {
+	font-weight:300;
+	font-size:25px;
+	padding:50px 50px 0px 50px;
+}
+.altbg {
+	background-color:#303030;
+	color:#ffffff;
+}
+.rule1 {
+	display: none; 
+	height: 1px;
+    border: 0; 
+	border-top: 1px solid #cf2629;
+    margin: 1em auto; 
+	padding: 0;
+	padding-bottom:18px;
+	width:40em;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container-fluid {
+	padding-left:0px;
+	padding-right:0px;
+	margin:0 auto;
+}
+.strip {
+	background-color:#ffffff;
+	height:50px;
+}
+.logo h1 {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 151px 116px;
+    display: block;
+    height: 116px;
+    margin: 0 auto;
+	margin-top:-35px;
+    text-indent: -999em;
+    width: 151px;	
+}
+.main-nav, .page-nav {
+	margin:0 auto;
+}
+.main-nav ul, .page-nav ul {
+	padding:0;
+	margin-top:25px;
+}
+.main-nav ul li, .page-nav ul li {
+	display:block;
+	list-style: none;
+	padding:10px;
+	font-weight:300;
+	font-size:18px;
+}
+.main-nav ul li a, .page-nav ul li a {
+	color:#ffffff;
+}
+.main-nav ul li a:hover, .page-nav ul li a:hover {
+	color:#CCC;
+	text-decoration:none;
+}
+.port_info {
+	margin:0 auto;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:25px;
+	border-bottom:10px solid #f9f9f9;
+}
+.port_info p,.port_contents p {
+	font-weight:300;
+	font-style:normal;
+	font-size:14px;	
+	letter-spacing:0.1em;
+	line-height:30px;
+	margin:0 auto;
+	max-width:450px;
+}
+.port_contents {
+	margin:0 auto;
+	text-align:center;
+	padding:100px 15px 100px 15px;
+}
+.port_piece {
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:50px;	
+}
+.port_piece_new {
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:100px;	
+}
+.port_piece_last {
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:0px;	
+}
+.port_piece_spacer_title {
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:30px;	
+}
+.port_piece_spacer_project {
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:200px;	
+}
+.btn {
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight:300;
+	background: #cf2629;
+	padding: 15px 20px 15px 20px;
+	text-decoration: none;
+	margin-top:25px;
+	letter-spacing:0.2em;
+}
+a.btn + a.btn {
+	margin-left:30px;
+}
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+.contact {
+	margin:0 auto;
+	text-align:center;
+	padding-left:0px;
+	padding-right:0px;
+	border-bottom:10px solid #303030;	
+}
+.contact .contact-box-1 {
+	font-weight:300;
+	font-style:normal;
+	font-size:20px;	
+	letter-spacing:0.1em;
+	background-color:#d7e1f9;
+	color:#303030;
+	padding:20px;	
+}
+.contact .contact-box-2 {
+	font-weight:300;
+	font-style:normal;
+	font-size:20px;	
+	letter-spacing:0.1em;
+	background-color:#fbe4e4;
+	color:#303030;
+	padding:20px;	
+}
+/* PAGE SPECIFIC - INDEX.HTML
+-------------------------------------------------- */
+.intro {
+    background-image: url("../images/index_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+.work {
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:25px;
+	border-bottom:10px solid #f9f9f9;
+}
+.work .portbox img {
+	padding:25px;
+	background: none repeat scroll 0 0 #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #e6e6e6;
+    height: auto;
+    width: 278px;	
+	margin:0 auto;
+	margin-bottom:35px;
+	border:1px solid #ffffff;
+	transition:opacity 1s, box-shadow 1s, border 1s;
+}
+.work .portbox img:hover {
+	opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+	box-shadow: 0 0 5px #e6e6e6;
+	border:1px solid #cf2629;
+}
+.process {
+	margin:0 auto;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	border-bottom:10px solid #f9f9f9;
+}
+.process h3 {
+	font-weight:400;
+	font-style:italic;
+	font-size:16px;	
+	letter-spacing:0.1em;
+	padding-bottom:15px;
+}
+.process .row p {
+	font-weight:300;
+	font-style:normal;
+	font-size:14px;	
+	letter-spacing:0.1em;
+	line-height:30px;
+	padding-bottom:25px;	
+}
+.bio {
+	margin:0 auto;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:25px;
+	border-bottom:10px solid #f9f9f9;
+}
+.bio img {
+	margin:0 auto;
+	padding-bottom:25px;
+}
+.bio p {
+	font-weight:300;
+	font-style:normal;
+	font-size:14px;	
+	letter-spacing:0.1em;
+	line-height:30px;
+	margin:0 auto;
+	max-width:450px;
+}
+/* PAGE SPECIFIC - comboink.html
+-------------------------------------------------- */
+.comboink_intro {
+    background-image: url("../images/comboink_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - compandsave.html
+-------------------------------------------------- */
+.compandsave_intro {
+    background-image: url("../images/compandsave_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - miscdesign.html
+-------------------------------------------------- */
+.miscdesign_intro {
+    background-image: url("../images/miscdesign_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - cengage.html
+-------------------------------------------------- */
+.cengage_intro {
+    background-image: url("../images/cengage_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - ifeelgoods.html
+-------------------------------------------------- */
+.ifeelgoods_intro {
+    background-image: url("../images/ifeelgoods_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - daisyskitchen.html
+-------------------------------------------------- */
+.daisyskitchen_intro {
+    background-image: url("../images/daisyskitchen_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - firstnight.html
+-------------------------------------------------- */
+.firstnight_intro {
+    background-image: url("../images/firstnight_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - lanelogic.html
+-------------------------------------------------- */
+.lanelogic_intro {
+    background-image: url("../images/lanelogic_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - homesweethome.html
+-------------------------------------------------- */
+.homesweethome_intro {
+    background-image: url("../images/homesweethome_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - steamtodiesel.html
+-------------------------------------------------- */
+.steamtodiesel_intro {
+    background-image: url("../images/steamtodiesel_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - miscui.html
+-------------------------------------------------- */
+.miscui_intro {
+    background-image: url("../images/miscui_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - prismatic.html
+-------------------------------------------------- */
+.prismatic_intro {
+    background-image: url("../images/prismatic_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+}
+/* PAGE SPECIFIC - hanajapan.html
+-------------------------------------------------- */
+.hanajapan_intro {
+    background-image: url("../images/hanajapan_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+	background-size:cover;
+}
+/* PAGE SPECIFIC - saasmarkets.html
+-------------------------------------------------- */
+.saasmarkets_intro {
+    background-image: url("../images/saasmarkets_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+	background-size:cover;
+}
+/* PAGE SPECIFIC - pippawrites.html
+-------------------------------------------------- */
+.pippawrites_intro {
+    background-image: url("../images/pippawrites_bg.jpg");
+	background-position:top center;
+    color: #f2f2f2;
+    text-align: center;
+	height:620px;
+	border-bottom:10px solid #f9f9f9;
+	background-size:cover;
+}
+/* RESPONSIVE DESIGN
+-------------------------------------------------- */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+/* GLOBAL STYLES
+-------------------------------------------------- */
+.main-nav {
+	margin-left:40px;
+}
+.page-nav {
+	margin-left:-40px;
+}
+.main-nav ul, .page-nav ul {
+	display:inline-block;
+	padding:0;
+	margin-top:50px;
+	border-bottom:1px solid #ffffff;
+	padding-bottom:20px;
+}
+.main-nav ul li, .page-nav ul li {
+	display:inline;
+	padding:20px 40px 20px 40px;
+	font-weight:300;
+	font-size:18px;
+
+}
+.saying p {
+	font-size:30px;
+	padding:0px 20px 0px 20px;
+	padding-top:100px;
+	padding-bottom:80px;
+}
+.rule1 {
+	display: block; 
+}
+.port_info {
+	padding-bottom:50px;
+}
+.port_info p,.port_contents p {
+	font-size:18px;	
+	padding-left:50px;
+	padding-right:50px;	
+	line-height:40px;
+	max-width:650px;
+}
+.btn {
+	font-size: 18px;
+}
+/* PAGE SPECIFIC - INDEX.HTML
+-------------------------------------------------- */
+.work {
+	padding-bottom:50px;
+}
+.process {
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:25px;
+}
+.process h3 {
+	font-size:18px;	
+}
+.process .row p {
+	font-size:16px;	
+	line-height:35px;
+}
+.bio {
+	padding-bottom:50px;
+}
+.bio p {
+	font-size:18px;	
+	padding-left:50px;
+	padding-right:50px;	
+	line-height:40px;
+	max-width:650px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/* GLOBAL STYLES
+-------------------------------------------------- */
+h1.header {
+	margin:100px 0 100px 0;
+	font-size:30px;	
+}
+.saying p {
+	padding:100px 50px 0px 50px;
+	line-height:1.8em;
+}
+.port_info {
+	padding-bottom:100px;
+}
+.port_info p,.port_contents p {
+	font-size:20px;
+	max-width:700px;
+}
+.port_contents p {
+	max-width:1000px;
+}
+.btn {
+	font-size: 20px;
+}
+.rule1 {
+	padding-bottom:50px;
+}
+.contact .contact-box-1 {
+	padding:50px;	
+}
+.contact .contact-box-2 {
+	padding:50px;	
+}
+/* PAGE SPECIFIC - INDEX.HTML
+-------------------------------------------------- */
+.work {
+	max-width:900px;
+}
+.work,.bio {
+	padding-bottom:100px;
+}
+.process {
+	padding-bottom:50px
+}
+.process h3 {
+	font-size:24px;	
+}
+.process .row p {
+	font-size:20px;	
+	padding-bottom:50px;	
+}
+.bio p {
+	font-size:20px;
+	max-width:850px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
